@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<head>	
+	<script src="jquery-1.10.2.js"></script>
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="http://cdn.cssobfuscator.com/style/tggwcys1ut9idah2xcqoq4e3xstpst8l"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+</head>
+
+<body>
+
+	<div class="row vertical-center-row">
+    <div id="desktopTest" class="hidden-xs hidden-sm"></div>
+    <div id="menu" class="col-sm-1">  
+      <div id="menu-buttons"  class="nav nav-tabs">
+
+      </div>  
+    </div>
+
+    <div id="main-content" class="col-sm-7 col-lg-7">
+
+      <div id="overlap-main"></div> 
+      <div class="tab-content">
+
+        <div id="skills" class="tab-pane fade in active">
+          <div class="row">
+            <div id="left-content" class="col-lg-6">
+              <div id="skills-h" class="skills-h"></div><hr/>
+              <div id="skills-c" class="panel-collapse collapse in"></div>
+            </div>
+            <div id="right-content" class="col-lg-6">
+
+            </div>
+          </div>
+        </div>
+        
+        <div id="projects" class="tab-pane fade">
+          <div id="projects-h" class="projects-h"></div><hr/><div id="projects-c" class="panel-collapse collapse in"></div>
+        </div>
+
+
+        <div id="achievements" class="tab-pane fade">
+          <div id="achievements-h" class="achievements-h"></div><hr/><div id="achievements-c" class="panel-collapse collapse in"></div>
+        </div>
+
+
+        <div id="education" class="tab-pane fade">
+          <div id="education-h" class="education-h"></div><hr/><div id="education-c" class="panel-collapse collapse in">
+          <ul class="nav nav-tabs nav-justified">
+            <li><a data-toggle="tab" href="#10">10th</a></li>
+           <li><a data-toggle="tab" href="#12">12th</a></li>
+           <li class="active"><a data-toggle="tab" href="#btech">B.Tech</a></li>
+           <li><a data-toggle="tab" href="#current">Current</a></li>
+         </ul>
+         <div class="tab-content">
+          <div id="btech" class="tab-pane fade  in active"></div>
+          <div id="10" class="tab-pane fade"></div>
+          <div id="12" class="tab-pane fade"></div>
+          <div id="current" class="tab-pane fade"></div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div id="certi" class="tab-pane fade">
+      <div id="certi-h"></div>
+      <div id="certi-c"></div>
+      <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">         
+            <div class="modal-body">                
+            </div>
+          </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+      </div><!-- /.modal -->
+    </div>
+
+
+
+    <div id="email" class="tab-pane fade">
+      <div id="email-h" class="email-h"></div><hr/>
+      <div id="email-c" class="panel-collapse collapse in">
+        <form class="form-horizontal" role="form" name="sendmailform" action="sendmail" method="get">
+          <br/><div class="form-group"><label class="control-label col-sm-2" >Name:</label><div class="col-sm-10"><input type="text" class="form-control" placeholder="Enter your name"></div></div>
+          <br/><div class="form-group"><label class="control-label col-sm-2" for="email">Email:</label><div class="col-sm-10"><input type="email" class="form-control" name="fromemail" placeholder="Enter your email"></div></div>
+          <br/><div class="form-group"><label class="control-label col-sm-2" >Subject:</label><div class="col-sm-10"><input type="text" class="form-control" placeholder="Enter subject"></div></div>
+          <br/><div class="form-group"><label class="control-label col-sm-2" >Message:</label><div class="col-sm-10"><textarea class="form-control" rows="5" name="body" placeholder="Enter Message"></textarea></div></div>
+          <br/><div class="form-group"><div class="col-sm-offset-2 col-sm-10"><button type="submit" class="btn btn-default">Send</button></div></div>
+        </form>
+      </div>
+    </div>
+
+
+  </div>
+
+</div>
+
+
+<div id="profile" class="col-sm-3 col-lg-3">
+
+  <div id="profileimage"></div>  
+  <div id="profilename"></div>
+  <div id="profilerole"></div><hr/>
+  <div id="profileobjective"></div><hr/>
+  <div id="sociallinks" class="footer"></div>     
+
+</div>
+
+</div>
+<script src="https://cdn.rawgit.com/kimmobrunfeldt/progressbar.js/master/dist/progressbar.js"></script>
+<script src="resumebuilder.js">	</script>
+<script src="photo-gallery.js"></script>
+
+</body>
+</html>
